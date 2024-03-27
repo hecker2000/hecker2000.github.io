@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>template</title>
+        <style>
+            body {
+                background-color: rgb(0, 0, 0);
+                color: white;
+                font-family: Arial;
+            }
+            .class-header {
+                color: rgb(0, 161, 242);
+                text-align: center;
+            }
+            .class-header-white {
+                color: rgb(255, 255, 255);
+                text-align: center;
+            }
+            .class-header-low {
+                position: relative;
+                color: rgb(235, 235, 235);
+                text-align: center;
+                top: 50px;
+                font-size: 340%;
+            }
+            #button-center {
+                margin: auto;
+            }
+
+            .class-header-button {
+                background-color: rgb(0, 161, 242);
+                border-radius: 20px;
+                color: rgb(255, 255, 255);
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+            }
+            .p {
+                background-color: rgb(115, 115, 115);
+                color: rgb(3, 255, 158);
+                text-align: center;
+                width: 50%;
+                margin: auto;
+                border-radius: 22px;
+            }
+            .p2 {
+                background-color: rgb(145, 145, 145);
+                color: rgb(3, 255, 158);
+                text-align: center;
+                width: 75%;
+                margin: auto;
+                border-radius: 24px;
+            }
+            .topnav {
+              background-color: #333;
+              overflow: hidden;
+            }
+            .topnav a {
+              float: left;
+              color: #f2f2f2;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              font-size: 17px;
+            }
+            .color-gray {
+                background-color: rgb(66, 66, 66);
+                border-radius: 45px;
+                margin: auto;
+                width: 50%;
+            }
+
+            .home-page {
+                border-radius: 45px;
+                border: none;
+                width: 40%;
+                height: 174px;
+                background: url(https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-in-hawaii.png);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                margin: auto;
+            }
+            .warning {
+                color: rgb(0, 0, 0);
+                text-align: center;
+            }
+            a:link {
+                color: rgb(3, 255, 158);
+            }
+            a:visited {
+                color: rgb(3, 255, 158);
+            }
+            table, th, td {
+                width: 50%;
+                border-radius: 4px;
+                border:1px solid white;
+                margin: auto;
+            }
+            footer {
+                background-color: rgb(56, 56, 56);
+                color: white;
+                width: 100%;
+                font-size: 14px;
+                margin: auto;
+            }
+            .food-bg {
+                background: url(https://upload.wikimedia.org/wikipedia/commons/5/5d/Shoyu_and_onion_poke.jpg);
+                background-repeat: no-repeat;
+                background-size: 105% 121%;
+                outline: rgb(89, 89, 89) solid 10px;
+                margin: auto;
+                width: 40%;
+                border-radius: 72px;
+            }
+            .centerimg {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 80%;
+                border-radius: 60px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="topnav">
+            <a>TOC</a>
+            <a href="#home">Home</a>
+            <a href="#foods">Foods</a>
+            <a href="#map">Map</a>
+            <a href="#why">Why</a>
+        </div>
+
+        <div id="home" class="home-page" style="margin-bottom: 100px; style="margin-top: 100px;">
+        <h1 class="class-header-low">Welcome to Hawaii!</h1>
+        </div>
+
+        <div class="food-bg" style="margin-bottom: 60px; style="margin-top: 100px;">
+            <div id="foods" class="p">
+                <h2>Foods to try in hawaii</h2>
+                <p>There are many different types of delicous food native to Hawaii. Here I have asembled a small list of popular foods from Hawaii.</p>
+                <p>
+                    <a href="https://en.wikipedia.org/wiki/Poke_(dish)">poke</a>
+                    <br><a href="https://en.wikipedia.org/wiki/Manapua">manapua</a>
+                    <br><a href="https://en.wikipedia.org/wiki/Spam_musubi">spam musubi</a>
+                    <br><a href="https://en.wikipedia.org/wiki/Taco#Traditional_variations">fish tacos</a>
+                    <br><a href="https://en.wikipedia.org/wiki/Saimin">saimin</a>
+                    <br><a href="https://en.wikipedia.org/wiki/Huli-huli_chicken">huli huli chicken</a>
+                    <br><a href="https://en.wikipedia.org/wiki/Loco_moco">loco moco</a>
+                    <br><a href="https://en.wikipedia.org/wiki/Malassada">malasadas</a>
+                    <br><a href="https://en.wikipedia.org/wiki/Hawaiian_shave_ice">shave ice</a>
+                </p>
+                <p>click on items to open <u>wikipedia links</u>.</p>
+            </div>
+        </div>
+
+        <div id="map" class="color-gray" style="margin-bottom: 50px; style="margin-top: 60px;">
+            <h2 class="class-header">Map of hawaii</h2>
+            <div id="button-center"><a href="https://www.google.com/maps/place/Hawaii/data=!4m2!3m1!1s0x7bffdb064f79e005:0x4b7782d274cc8628?sa=X&ved=2ahUKEwj-oOCcvMyEAxWvmYkEHSKnCeEQ8gF6BAgTEAA"><button class="class-header-button">link to map</button></a>
+            <p>test</p></div>
+            <p class="warning">Link leads to google maps, once khan academy blocks the link, open it in a new tab.</p>
+            <img class="centerimg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Hawaii_in_United_States_%28US50%29_%28%2Bgrid%29_%28zoom%29_%28W3%29.svg/450px-Hawaii_in_United_States_%28US50%29_%28%2Bgrid%29_%28zoom%29_%28W3%29.svg.png" width="562" alt="picture of the us map">
+        </div>
+
+        <div class="p2" style="margin-bottom: 40px; style="margin-top: 50px;">
+            <h1 id="why" class="class-header-white">Why you should go to Hawaii</h1>
+            <p>Hawaii has a plethora of activities for you to explore, ranging from sight seeing <em>breath-taking</em> landscapes to <strong>eleborate museums</strong>.
+                <br><em>each island in Hawaii has different things to offer.</em>
+            </p>
+            <table>
+            <tr>
+                <th>Island</th>
+                <th>Thing to try</th>
+            </tr>
+            <tr>
+                <td>Muai</td>
+                <td>Go deep diving</td>
+            </tr>
+            <tr>
+                <td>Oahu</td>
+                <td>Watch for whales</td>
+            </tr>
+            <tr>
+                <td>Kauai</td>
+                <td>try sight-seeing flights</td>
+            </tr>
+            </table>
+            <p>
+                This is only 3 islands in Hawaii, there's so much more to explore and see!
+            </p>
+        </div>
+
+        <div></div>
+    </body>
+    <footer>
+        This project uses links and information from wikipedia, all information from wikipedia can be modified to display misinformation. if you are planning a trip to Hawaii, its probably not a good idea to use this page, instead use more grounded websites.
+    </footer>
+</html>
